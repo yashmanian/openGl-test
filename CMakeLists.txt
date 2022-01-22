@@ -20,5 +20,8 @@ file(MAKE_DIRECTORY "lib")
 
 set(LINK_LIBRARIES GLEW glut GLU GL)
 
-add_executable(glTest src/test1.cpp)
-target_link_libraries(glTest ${LINK_LIBRARIES})
+add_executable(glExample src/test1.cpp)
+target_link_libraries(glExample ${LINK_LIBRARIES})
+
+#add_executable(glText src/glText.cpp)
+#target_link_libraries(glText ${LINK_LIBRARIES})

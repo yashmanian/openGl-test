@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 
 	// Initialize Window
 	glutInitWindowPosition(200, 100);
-	glutInitWindowSize(500, 500);
+	glutInitWindowSize(480, 640);
 
 	// Create Window
 	glutCreateWindow("Window 1");
